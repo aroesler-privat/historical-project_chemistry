@@ -1,3 +1,7 @@
 # historical-project_chemistry
 
-Test
+```dos
+BPC.EXE -B -CP CHEMIE.PAS
+```
+
+
