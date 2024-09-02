@@ -20,7 +20,9 @@ Make sure that the mouse driver is loaded correctly:
 LoadHigh C:\DOS\MOUSE.COM
 ```
 
-Run MS DOS 6.x in your VirtualBox. Next to a [suitable mouse driver](https://git.javispedro.com/cgit/vbados.git/about/), you will profit from using [DOSIdle](http://www.win16.info/files/patch/dosidle.img) and [WinFloat](http://www.win16.info/files/winfloat.img) as well:
+### Virtual Periodic System of Elements featured by VirtualBox :-)
+
+Run MS DOS 6.x in your VirtualBox. In addition to a [suitable mouse driver](https://git.javispedro.com/cgit/vbados.git/about/), you will also benefit from the use of [DOSIdle](http://www.win16.info/files/patch/dosidle.img) and [WinFloat](http://www.win16.info/files/winfloat.img):
 
 ```autoexec.bat
 C:\VIRTBOX\DOSIDLE.EXE
@@ -29,11 +31,20 @@ C:\VIRTBOX\VBMOUSE.EXE install
 C:\VIRTBOX\VBMOUSE.EXE wheelkey updn
 ```
 
+### For penguins: use dosbox-x
+
+```bash
+sudo apt install dosbox-x
+dosbox-x -x CHEMIE.EXE
+```
 
 ![Screenshot of the Code in Action](screenshots/periodensystem_mit_energieniveauschema.jpg)
 
+## Compile the source code
+
+Yes, you can still compile the source code yourself! It certainly works with Borland Pascal 7.0, but Turbo Pascal should also work. In the editor, all individual libraries must be compiled into TPU files. At the very end, the CHEMIE.PAS can be compiled into a CHEMIE.EXE. It is easier and quicker to do this on the command line:
 
 ```dos
-BPC.EXE -B -CP CHEMIE.PAS
+BPC.EXE -B -CD CHEMIE.PAS
 ```
 
