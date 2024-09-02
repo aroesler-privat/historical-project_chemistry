@@ -6,6 +6,11 @@ Because I had no other hobbies, this became my final project: the periodic table
 
 Back then, I implemented the graphical dialogs in [CONTROLS.PAS](src/CONTROLS.PAS) in an object-oriented way - I think that was the new cool shit in Pascal at the time. It made it much easier for me to create the many dialogs, but it was also a bit lame. Today you don't notice any of that anymore.
 
+
+![Screenshot of the Code in Action](screenshots/periodensystem_mit_energieniveauschema.jpg)
+
+<img src="screenshots/startbildschirm.jpg" width="18%"></img> <img src="screenshots/periodensystem.jpg" width="18%"></img> <img src="screenshots/verbindungen.jpg" width="18%"></img> <img src="screenshots/db_elemente.jpg" width="18%"></img> <img src="screenshots/db_verbindungen.jpg" width="18%"></img> 
+
 ## Run it
 
 Download the whole [bin-Directory](bin/) on your PC. You have several options to run it:
@@ -39,10 +44,6 @@ C:\VIRTBOX\VBMOUSE.EXE wheelkey updn
 sudo apt install dosbox-x
 dosbox-x -x CHEMIE.EXE
 ```
-
-![Screenshot of the Code in Action](screenshots/periodensystem_mit_energieniveauschema.jpg)
-
-<img src="screenshots/startbildschirm.jpg" width="18%"></img> <img src="screenshots/periodensystem.jpg" width="18%"></img> <img src="screenshots/verbindungen.jpg" width="18%"></img> <img src="screenshots/db_elemente.jpg" width="18%"></img> <img src="screenshots/db_verbindungen.jpg" width="18%"></img> 
 
 ## Compile the source code
 
