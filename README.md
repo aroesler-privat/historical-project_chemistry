@@ -13,7 +13,7 @@ Back then, I implemented the graphical dialogs in [CONTROLS.PAS](src/CONTROLS.PA
 
 ## Run it
 
-Download the whole [bin-Directory](bin/) on your PC. You have several options to run it:
+Download the whole [bin-Directory](bin/) to your PC. You have several options to run it:
 
 ### The original MS DOS way
 
