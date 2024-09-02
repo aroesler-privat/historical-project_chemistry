@@ -31,7 +31,9 @@ C:\VIRTBOX\VBMOUSE.EXE install
 C:\VIRTBOX\VBMOUSE.EXE wheelkey updn
 ```
 
-### For penguins: use dosbox-x
+### Using dosbox-x
+
+[DOSBox-X](https://dosbox-x.com/) is a DOS emulator being available for Linux, Windows and macOS. At least in my Ubuntu it works smooth ...
 
 ```bash
 sudo apt install dosbox-x
@@ -42,7 +44,7 @@ dosbox-x -x CHEMIE.EXE
 
 ## Compile the source code
 
-Yes, you can still compile the source code yourself! It certainly works with Borland Pascal 7.0, but Turbo Pascal should also work. In the editor, all individual libraries must be compiled into TPU files. At the very end, the CHEMIE.PAS can be compiled into a CHEMIE.EXE. It is easier and quicker to do this on the command line:
+Yes, you can still compile the source code yourself! It certainly works with [Borland Pascal 7.0](https://winworldpc.com/product/borland-pascal/7x), but Turbo Pascal should also work. In the editor, all individual libraries must be compiled into TPU files. At the very end, the CHEMIE.PAS can be compiled into a CHEMIE.EXE. It is easier and quicker to do this on the command line:
 
 ```dos
 BPC.EXE -B -CD CHEMIE.PAS
