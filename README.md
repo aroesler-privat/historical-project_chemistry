@@ -15,17 +15,15 @@ Back then, I implemented the graphical dialogs in [CONTROLS.PAS](src/CONTROLS.PA
 
 Download the whole [bin-Directory](bin/) to your PC. You have several options to run it:
 
-### The original MS DOS way
+### Easiest way: Using dosbox-x
 
-Use your PC with an IBM 8088 Processor or higher with min. 512k of memory. A compatible pointing device is required. The AMD 80486DX 40 CPU with 4MB RAM, which I have tested extensively, is highly recommended.
+[DOSBox-X](https://dosbox-x.com/) is a DOS emulator being available for Linux, Windows and macOS. Just change into the directory containing the [bin](bin/)-Files and run ...
 
-Make sure that the mouse driver is loaded correctly:
-
-```autoexec.bat
-LoadHigh C:\DOS\MOUSE.COM
+```bash
+dosbox-x -x CHEMIE.EXE
 ```
 
-### Virtual Periodic System of Elements featured by VirtualBox :-)
+### Retro way: Virtual Periodic System of Elements featured by VirtualBox :-)
 
 Run MS DOS 6.x in your VirtualBox. In addition to a [suitable mouse driver](https://git.javispedro.com/cgit/vbados.git/about/), you will also benefit from the use of [DOSIdle](http://www.win16.info/files/patch/dosidle.img) and [WinFloat](http://www.win16.info/files/winfloat.img):
 
@@ -36,13 +34,14 @@ C:\VIRTBOX\VBMOUSE.EXE install
 C:\VIRTBOX\VBMOUSE.EXE wheelkey updn
 ```
 
-### Using dosbox-x
+### Hardcore way: The original MS DOS
 
-[DOSBox-X](https://dosbox-x.com/) is a DOS emulator being available for Linux, Windows and macOS. At least in my Ubuntu it works smooth ...
+Use your PC with an IBM 8088 Processor or higher with minimum 512k of memory. A compatible pointing device is required. The AMD 80486DX 40 CPU with 4MB RAM, which I have tested extensively, is highly recommended.
 
-```bash
-sudo apt install dosbox-x
-dosbox-x -x CHEMIE.EXE
+Make sure that the mouse driver is loaded correctly:
+
+```autoexec.bat
+LoadHigh C:\DOS\MOUSE.COM
 ```
 
 ## Compile the source code
