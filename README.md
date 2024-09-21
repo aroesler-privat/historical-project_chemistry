@@ -1,4 +1,4 @@
-# 1996: My final thesis in compter science at school
+# 1996: My final thesis in computer science at school
 
 1996 was the only school year in which I had computer science lessons. I must have been in the 11th grade. A few friends and I already had a few years of experience with Borland Pascal. While the class was taking its first steps, we were given time off for motivational reasons ;-).
 
