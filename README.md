@@ -44,6 +44,14 @@ Make sure that the mouse driver is loaded correctly:
 LoadHigh C:\DOS\MOUSE.COM
 ```
 
+## Update (2026): filled-in sample data
+
+With Claude's help, I brought `ELEMENTS.DAT` up to date: the missing melting/boiling points, electronegativity, atomic mass and density for all 118 elements, plus a few outdated or wrong names and symbols (e.g. element 104 was still called "Kurtschatovium", today's "Rutherfordium").
+
+`SUBSTANC.DAT` got the same treatment and, on top of that, a handful of substances typical for school chemistry (water, sulfuric acid, carbon dioxide, table salt, ammonia, ...).
+
+It's still the same 1996 source code - only the data got extended. The only thing Claude actually added to the source were [NEWPSE.PAS](src/NEWPSE.PAS) and [NEWSUBST.PAS](src/NEWSUBST.PAS), to pre-fill the data. Both are deliberately not used by the current source code.
+
 ## Compile the source code
 
 Yes, you can still compile the source code yourself! It certainly works with [Borland Pascal 7.0](https://winworldpc.com/product/borland-pascal/7x), but Turbo Pascal should also work. In the editor, all individual libraries must be compiled into TPU files. At the very end, the CHEMIE.PAS can be compiled into a CHEMIE.EXE. It is easier and quicker to do this on the command line:
